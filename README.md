@@ -1,5 +1,6 @@
-# CSE491 Section 2, 2016 Fall
-## Introduction to Machine Learning
+# Introduction to Machine Learning
+## CSE491 Section 2, 2016 Fall
+
 Instructor: [Jiayu Zhou](http://0xmachine.com) [[email](mailto:jiayuz@msu.edu)]
 
 
