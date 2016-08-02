@@ -3,30 +3,112 @@
 
 Instructor: [Jiayu Zhou](http://0xmachine.com) [[email](mailto:jiayuz@msu.edu)]
 
+* Time: Monday and Wednesday 10:20am - 11:40am
 
+* Location: Engineering Building, **EB 2205**  
 
-Time: Monday and Wednesday 10:20am - 11:40am
-
-Location: Engineering Building, **EB 2205**  
-
-Office Hours: TBA, EB 2134
-
-
-## Course Description
-Machine Learning is concerned with computer programs that automatically improve their performance through experience (e.g., that learn to spot high-risk medical patients, recognize speech, classify text documents, detect credit card fraud, or drive autonomous robots). This course provides an in-depth understanding of machine learning and statistical pattern recognition techniques and their applications in biomedical informatics, computer vision, and other domains.
-
-Tentative Topics: probability distributions, regression, classification, kernel methods, clustering, semi-supervised learning, mixture models, graphical models, dimensionality reduction, manifold learning, sparse learning, multi-task learning, transfer learning, and Hidden Markov Models.
-
-Homework assignments include both theoretic derivation and hands-on experiments with various learning algorithms. 
-
-## Recommended Background
-In this course you will be extensively involved a variety of math topics, especially, linear algebra and matrix computation, basics about probability theory and numerical optimization. An online quiz will be available before the class for self-assessment.  
-
-## Course Announcements
-Announcements will be emailed to the course mailing list. A welcome note will be sent to the mailing list at the beginning of the semester.  If you do not receive the welcome message before the first class, please [send mail to me](mailto:jiayuz@msu.edu).
-
-## References
-
-### Machine Learning
+* Office Hours: Monday and Wednesday 11:40am - 12:40pm, EB 2134
 
 * Textbook: Learning from Data, Yaser S. Abu-Mostafa, Malik Magdon-Ismail, and Hsuan-Tien Lin, 2012. [Webpage](http://amlbook.com/)
+
+## Course Description
+An introduction to the field of machine learning, including linear models for regression and classification, generative models, support vector machines and kernel methods, neural networks and deep learning, decision trees, unsupervised learning and dimension reduction. (3 credits) 
+
+## Student Learning Outcomes and Assessment
+Student learning outcomes include (1) understanding the foundation, major techniques, appli- cations, and challenges of machine learning; (2) the ability to apply basic machine learning algorithms for solving real-world problems. The learning outcomes will be assessed based on a combination of homework assignments and exams.
+
+## Recommended Background
+In this course you will be extensively involved a variety of math topics, especially, linear algebra and matrix computation, basics about probability theory and numerical optimization. An online quiz will be available before the class for [self-assessment](https://github.com/jiayuzhou/CSE491-2016Fall/blob/master/assessment/SelfAssessment.pdf). 
+
+You will be using Python for programming.  
+
+## Tentative Class Contents
+* Introduction
+* Linear algebra review
+* Linear regression
+* Logistic regression
+* Probability review
+* Basic probability and naïve Bayes classifier
+* Generative versus discriminative models
+* Generalization and overfitting
+* Support vector machines and kernel methods
+* Neural networks
+* Deep learning
+* Decision tree and random forests
+* Dimension reduction, principal component analysis (PCA) • Unsupervised learning and K-means clustering
+* Spectral clustering
+
+## Course Policies
+
+### Course Announcements
+Announcements will be emailed to the course mailing list. A welcome note will be sent to the mailing list at the beginning of the semester.  If you do not receive the welcome message before the first class, please [send mail to me](mailto:jiayuz@msu.edu).
+
+### Grading 
+
+* Homework (6): 35% 
+* Exam 1: 20%
+* Exam 2: 20%
+* Final: 25%
+
+### Homework
+All homework must be done independently, or you will be penalized for plagiarism. The instruc- tor and the TA will be carefully looking into your code.
+
+Most homework contains a written component and a programming component. Therefore, most homework submission should include a report and some MATLAB code. The report should be submitted in hard-copy BEFORE class on the due date. The code file should be submitted electronically on MSU D2L (one submission per student). Late penalty is 15% point deduction per day for the first three days, after which the submission will not be accepted. Exceptions/extensions can be given to students with documented and valid excuse. Students need to provide evidence for their excuse and must notify the instructor before the original due date. A student may request up to 2 excused extensions.
+
+Most homework requires Python programming.
+
+### Exams
+Students will be required to complete two in-class exams and one final exam. In-class exams will focus on topics taught since the last exam. The final exam will be comprehensive.
+
+### Class Participation
+Students are required to attend all classes and actively participate in discussions.
+
+## Other Policies
+### Academic Honesty
+Article 2.3.3 of the Academic Freedom Report states that The student shares with the faculty the responsibility
+for maintaining the integrity of scholarship, grades, and professional standards. In addition, the (insert name of
+unit offering course) adheres to the policies on academic honesty as specified in General Student Regulations
+1.0, Protection of Scholarship and Grades; the all University Policy on Integrity of Scholarship and Grades; and
+Ordinance 17.00, Examinations. (See Spartan Life: Student Handbook and Resource Guide and/or the MSU Web
+site: www.msu.edu.) Therefore, unless authorized by your instructor, you are expected to complete all course
+assignments, including homework, lab work, quizzes, tests and exams, without assistance from any source. You are
+expected to develop original work for this course; therefore, you may not submit course work you completed for
+another course to satisfy the requirements for this course. Also, you are not authorized to use the www.allmsu.com
+Web site to complete any course work in this course. Students who violate MSU academic integrity rules may
+receive a penalty grade, including a failing grade on the assignment or in the course. Contact your instructor if you
+are unsure about the appropriateness of your course work. (See also the Academic Integrity webpage.)
+
+### Limits to confidentiality
+Essays, journals, and other materials submitted for this class are generally considered confidential pursuant to
+the Universitys student record policies. However, students should be aware that University employees, including
+instructors, may not be able to maintain confidentiality when it conflicts with their responsibility to report certain
+issues to protect the health and safety of MSU community members and others. As the instructor, I must report
+the following information to the Department of Police and Public Safety if you share it with me: Suspected child
+abuse/neglect, even if this maltreatment happened when you were a child, Allegations of sexual assault or sexual
+harassment when they involve MSU students, faculty, or staff, and Credible threats of harm to oneself or to others.
+These reports will trigger contact from the Department of Police and Public Safety who will want to talk with you
+about the incident that you have shared. In almost all cases, it will be your decision whether you wish to speak
+with that individual. If you would like to talk about these events in a more confidential setting you are encouraged
+to make an appointment with the MSU Counseling Center.
+
+### Accommodations for Students with Disabilities (from RCPD)
+Michigan State University is committed to providing equal opportunity for participation in all programs, services
+and activities. Requests for accommodations by persons with disabilities may be made by contacting the Resource
+Center for Persons with Disabilities at 517-884-RCPD or on the web at rcpd.msu.edu. Once your eligibility for
+an accommodation has been determined, you will be issued a Verified Individual Services Accommodation (VISA)
+form. Please present this form to me at the start of the term and/or two weeks prior to the accommodation date
+(test, project, etc.). Requests received after this date may not be honored.
+
+### Disruptive Behavior
+Article 2.III.B.4 of the Academic Freedom Report (AFR) for students at Michigan State University states: The
+student’s behavior in the classroom shall be conducive to the teaching and learning process for all concerned. Article
+2.III.B.10 of the AFR states that The student has a right to scholarly relationships with faculty based on mutual
+trust and civility. General Student Regulation 5.02 states: No student shall ... interfere with the functions
+and services of the University (for example, but not limited to, classes ...) such that the function or service is
+obstructed or disrupted. Students whose conduct adversely affects the learning environment in this classroom may
+be subject to disciplinary action through the Student Judicial Affairs office.
+
+## Acknowledgement
+The preparation of this course has benefited from CPTS 483 at Washington State University, CSE 591 and CSE 575 at Arizona State University. 
+
+
