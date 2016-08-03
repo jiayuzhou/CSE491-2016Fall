@@ -55,10 +55,13 @@ Final grades will be assigned based on absolute percentage as follows:
 | Absolute percentage | Grade | 
 | ------------------- | :---- | 
 | [ 100, 90 ] | 4.0 | 
-| [ 100, 90 ] | 4.0 | 
-| [ 100, 90 ] | 4.0 | 
-| [ 100, 90 ] | 4.0 | 
-| [ 100, 90 ] | 4.0 | 
+| ( 90,  85 ] | 3.5 | 
+| ( 85,  80 ] | 3.0 | 
+| ( 80,  70 ] | 2.0 | 
+| ( 70,  60 ] | 1.0 |
+| ( 60,   0 ] | 0.0 |
+
+where [ ] denotes inclusion and ( ) denotes exclusion. The instructor reserves the right to move the thresholds down (but not up) based on the distribution of final percentages.
 
 ### Homework
 All homework must be done independently, or you will be penalized for plagiarism. The instruc- tor and the TA will be carefully looking into your code.
