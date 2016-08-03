@@ -50,6 +50,16 @@ Announcements will be emailed to the course mailing list. A welcome note will be
 * Exam 2: 20%
 * Final: 25%
 
+Final grades will be assigned based on absolute percentage as follows:
+
+| Absolute percentage | Grade | 
+| ------------------- | :---- | 
+| [ 100, 90 ] | 4.0 | 
+| [ 100, 90 ] | 4.0 | 
+| [ 100, 90 ] | 4.0 | 
+| [ 100, 90 ] | 4.0 | 
+| [ 100, 90 ] | 4.0 | 
+
 ### Homework
 All homework must be done independently, or you will be penalized for plagiarism. The instruc- tor and the TA will be carefully looking into your code.
 
