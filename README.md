@@ -129,6 +129,6 @@ obstructed or disrupted. Students whose conduct adversely affects the learning e
 be subject to disciplinary action through the Student Judicial Affairs office.
 
 ## Acknowledgement
-The preparation of this course has benefited from CPTS 483 at Washington State University, CSE 591 and CSE 575 at Arizona State University. 
+The preparation of this course has benefited from CPTS 483 at Washington State University (Instructor: Dr. Shuiwang Ji), CSE 591 (Dr. Jieping Ye) and CSE 575 (Dr. Hanghang Tong) at Arizona State University. 
 
 
