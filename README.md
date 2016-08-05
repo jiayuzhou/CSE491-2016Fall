@@ -11,6 +11,13 @@ Instructor: [Jiayu Zhou](http://0xmachine.com) [[email](mailto:jiayuz@msu.edu)]
 
 * Textbook: Learning from Data, Yaser S. Abu-Mostafa, Malik Magdon-Ismail, and Hsuan-Tien Lin, 2012. [Webpage](http://amlbook.com/)
 
+Teaching Assistant: [Qi Wang](mailto:wangqi19@msu.edu)
+
+* Office Hours: TBA
+
+* Location: Tuesday 1:00pm - 2:00pm, Thursday 5:00pm - 6:00pm. 
+
+
 ## Course Description
 An introduction to the field of machine learning, including linear models for regression and classification, generative models, support vector machines and kernel methods, neural networks and deep learning, decision trees, unsupervised learning and dimension reduction. (3 credits) 
 
