@@ -74,7 +74,7 @@ where [ ] denotes inclusion and ( ) denotes exclusion. The instructor reserves t
 ### Homework
 All homework must be done independently, or you will be penalized for plagiarism. The instruc- tor and the TA will be carefully looking into your code.
 
-Most homework contains a written component and a programming component. Therefore, most homework submission should include a report and some MATLAB code. The report should be submitted in hard-copy BEFORE class on the due date. The code file should be submitted electronically on MSU D2L (one submission per student). Late penalty is 15% point deduction per day for the first three days, after which the submission will not be accepted. Exceptions/extensions can be given to students with documented and valid excuse. Students need to provide evidence for their excuse and must notify the instructor before the original due date. A student may request up to 2 excused extensions.
+Most homework contains a written component and a programming component. Therefore, most homework submission should include a report and some Python code. The report should be submitted in hard-copy BEFORE class on the due date. The code file should be submitted electronically on MSU D2L (one submission per student). Late penalty is 15% point deduction per day for the first three days, after which the submission will not be accepted. Exceptions/extensions can be given to students with documented and valid excuse. Students need to provide evidence for their excuse and must notify the instructor before the original due date. A student may request up to 2 excused extensions.
 
 Most homework requires Python programming.
 
