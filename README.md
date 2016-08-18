@@ -85,6 +85,15 @@ Students will be required to complete two in-class exams and one final exam. In-
 Students are required to attend all classes and actively participate in discussions.
 
 ## Other Policies
+### Spartan Code of Honor
+Student leaders have recognized the challenging task of discouraging plagiarism from the academic community. The Associated Students of Michigan State University (ASMSU) is proud to be launching the Spartan Code of Honor academic pledge, focused on valuing academic integrity and honest work ethics at Michigan State University. The pledge reads as follows:
+
+> As a Spartan, I will strive to uphold values of the highest ethical standard. I will practice honesty in my work, foster honesty in my peers, and take pride in knowing that honor is worth more than grades. I will carry these values beyond my time as a student at Michigan State University, continuing the endeavor to build personal integrity in all that I do. 
+
+The Spartan Code of Honor academic pledge embodies the principles of integrity that every Spartan is required to uphold in their time as a student, and beyond. The academic pledge was crafted with inspiration of existing individual college honor codes, establishing an overarching statement for the entire university. It was formally adopted by ASMSU on March 3, 2016, endorsed by Academic Governance on March 22, 2016, and recognized by the Provost, President, and Board of Trustees on April 15, 2016. Student conduct that is inconsistent with the academic pledge is addressed through existing policies, regulations, and ordinances governing academic honesty and integrity: Integrity of Scholarship and Grades, Student Rights and Responsibilities, and General Student Regulations.
+
+Sign Spartan Code of Honor [here](http://honorcode.msu.edu)! 
+
 ### Academic Honesty
 Article 2.3.3 of the Academic Freedom Report states that The student shares with the faculty the responsibility
 for maintaining the integrity of scholarship, grades, and professional standards. In addition, the (insert name of
