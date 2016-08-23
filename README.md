@@ -22,7 +22,7 @@ Teaching Assistant: [Qi Wang](mailto:wangqi19@msu.edu)
 An introduction to the field of machine learning, including linear models for regression and classification, generative models, support vector machines and kernel methods, neural networks and deep learning, decision trees, unsupervised learning and dimension reduction. (3 credits) 
 
 ## Student Learning Outcomes and Assessment
-Student learning outcomes include (1) understanding the foundation, major techniques, appli- cations, and challenges of machine learning; (2) the ability to apply basic machine learning algorithms for solving real-world problems. The learning outcomes will be assessed based on a combination of homework assignments and exams.
+Student learning outcomes include (1) understanding the foundation, major techniques, applications, and challenges of machine learning; (2) the ability to apply basic machine learning algorithms for solving real-world problems. The learning outcomes will be assessed based on a combination of homework assignments and exams.
 
 ## Recommended Background
 In this course you will be extensively involved a variety of math topics, especially, linear algebra and matrix computation, basics about probability theory and numerical optimization. An online quiz will be available before the class for [self-assessment](https://github.com/jiayuzhou/CSE491-2016Fall/blob/master/assessment/SelfAssessment.pdf). 
@@ -139,6 +139,6 @@ obstructed or disrupted. Students whose conduct adversely affects the learning e
 be subject to disciplinary action through the Student Judicial Affairs office.
 
 ## Acknowledgement
-The preparation of this course has benefited from CPTS 483 at Washington State University (Instructor: Dr. Shuiwang Ji), CSE 591 (Dr. Jieping Ye) and CSE 575 (Dr. Hanghang Tong) at Arizona State University. 
+The preparation of this course has benefited from CPTS 483 at Washington State University (Instructor: Dr. Shuiwang Ji), CSE 591 (Dr. Jieping Ye now in UMich) and CSE 575 (Dr. Hanghang Tong) at Arizona State University. 
 
 
