@@ -138,6 +138,17 @@ and services of the University (for example, but not limited to, classes ...) su
 obstructed or disrupted. Students whose conduct adversely affects the learning environment in this classroom may
 be subject to disciplinary action through the Student Judicial Affairs office.
 
+### Limits to confidentiality
+Essays, journals, and other materials submitted for this class are generally considered confidential pursuant to the University's student record policies.  However, students should be aware that University employees, including instructors, may not be able to maintain confidentiality when it conflicts with their responsibility to report certain issues to protect the health and safety of MSU community members and others.  As the instructor, I must report the following information to other University offices (including the Department of Police and Public Safety) if you share it with me:
+ 
+--Suspected child abuse/neglect, even if this maltreatment happened when you were a child,
+ 
+--Allegations of sexual assault or sexual harassment when they involve MSU students, faculty, or staff, and
+ 
+--Credible threats of harm to oneself or to others.
+ 
+These reports may trigger contact from a campus official who will want to talk with you about the incident that you have shared.  In almost all cases, it will be your decision whether you wish to speak with that individual.  If you would like to talk about these events in a more confidential setting you are encouraged to make an appointment with the MSU Counseling Center.
+
 ## Acknowledgement
 The preparation of this course has benefited from CPTS 483 at Washington State University (Instructor: Dr. Shuiwang Ji), CSE 591 (Dr. Jieping Ye now in UMich) and CSE 575 (Dr. Hanghang Tong) at Arizona State University. 
 
