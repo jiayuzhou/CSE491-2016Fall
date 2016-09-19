@@ -13,9 +13,9 @@ Instructor: [Jiayu Zhou](http://0xmachine.com) [[email](mailto:jiayuz@msu.edu)]
 
 Teaching Assistant: [Qi Wang](mailto:wangqi19@msu.edu)
 
-* Office Hours: Tuesday 1:00pm - 2:00pm and by appointments.  
+* Office Hours: Tuesday 9:00am - 10:00am and by appointments.  
 
-* Location: TBA 
+* Location: EB 3203 
 
 
 ## Course Description
