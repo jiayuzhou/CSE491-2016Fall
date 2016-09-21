@@ -5,7 +5,7 @@
 
 from numpy import array, dot
 import numpy as np
-
+from random import choice
 
 def train_perceptron(training_data):
     """
@@ -21,14 +21,16 @@ def train_perceptron(training_data):
     while True:
 
         # compute results.
-
+        aa = [ np.sign( np.dot(w, xx[0])) * xx[1] for  xx in training_data] 
         # get incorrect predictions.
-
+        indices = [i for i, xx in enumerate(aa) if xx != 1]
         # convergence criteria.
-
+        if not indices:
+            break
         # find a wrongly classified sample.
-
+        x_star, y_star = training_data[choice(indices)]
         # update weight via the Perceptron update rule.
+        w += y_star * x_star
 
         ii += 1
     return w
@@ -67,8 +69,8 @@ if __name__ == '__main__':
     ]
 
     # set training data.
-    # train_data = xor_data
-    train_data = rnd_data
+    train_data = xor_data
+    # train_data = rnd_data
 
     # trained_model = train_perceptron(train_data, use_random=True, iter_eval_func=None)
     trained_model = train_perceptron(train_data)
