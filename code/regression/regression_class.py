@@ -83,7 +83,7 @@ def mean_squared_error(true_label, predicted_label):
     :param predicted_label: predicted target
     :return: mean squared error.
     """
-
+    return np.sqrt(np.sum((true_label - predicted_label)**2)/true_label.size)
 
 
 def least_squares(feature, target):
@@ -93,7 +93,8 @@ def least_squares(feature, target):
     :param target: y
     :return: computed weight vector
     """
-    return
+    return np.dot(np.linalg.inv(np.dot(feature.T, feature)), np.dot(feature.T, target))
+
 
 
 def least_squares_gd(feature, target, max_iter=1000, step_size=0.00001):
@@ -117,7 +118,8 @@ def ridge_regression(feature, target, lam=1e-17):
     :param lam: lambda
     :return:
     """
-    return
+    feature_dim = feature.shape[1]
+    return np.dot(np.linalg.inv(np.dot(feature.T, feature) + np.eye(feature_dim)*lam), np.dot(feature.T, target))
 
 
 
@@ -128,13 +130,22 @@ def exp1():
     :return: nothing
     """
     # EXP1: training testing.
-    # generate a data set (feature size 3, sample size 10 with bias).
-
-    # split training/testing. Using 80% as training.
-
-    # compute model using least sqaures regression/ridge regression
+    # generate a data set.
+    (feature_all, target_all, model) = generate_rnd_data(feature_size=3, sample_size=20, bias=True)
+    #print np.concatenate((feature_all, target_all), axis=1)
+    # split training/testing
+    feature_train, feature_test, target_train, target_test = rand_split_train_test(feature_all, target_all, train_perc=0.8)
+    #print np.concatenate((feature_train, target_train), axis=1)
+    #print np.concatenate((feature_test, target_test), axis=1)
+    # compute model
+    reg_model_lsqr = least_squares(feature_train, target_train)
+    reg_model_ridge = ridge_regression(feature_train, target_train, lam=1)
 
     # evaluate performance
+    print 'Training MSE(lsqr):', mean_squared_error(target_train, np.dot(feature_train, reg_model_lsqr))
+    print 'Testing MSE(lsqr):', mean_squared_error(target_test, np.dot(feature_test, reg_model_lsqr))
+    print 'Training MSE(ridge):', mean_squared_error(target_train, np.dot(feature_train, reg_model_ridge))
+    print 'Testing MSE(ridge):', mean_squared_error(target_test, np.dot(feature_test, reg_model_ridge))
 
 
 
@@ -251,7 +262,7 @@ if __name__ == '__main__':
     np.random.seed(491)
 
     # # EXP1: training testing.
-    # exp1()
+    exp1()
     #
     # # EXP2: generalization performance: increase sample size.
     # exp2()
