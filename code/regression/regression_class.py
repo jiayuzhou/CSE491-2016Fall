@@ -23,7 +23,7 @@ def rand_split_train_test(data, label, train_perc):
 
     train_sample = np.max([np.floor(sample_size * train_perc).astype(int), 1])
     idx = np.random.permutation(data.shape[0])
-    idx_tr = idx[0: train_sample - 1]
+    idx_tr = idx[0: train_sample]
     idx_te = idx[train_sample:]
 
     data_tr = data[idx_tr, :]
@@ -46,7 +46,7 @@ def subsample_data(data, label, subsample_size):
     subsample_size = np.max([1, np.min([data.shape[0], subsample_size])])
 
     idx = np.random.permutation(data.shape[0])
-    idx = idx[0: subsample_size - 1]
+    idx = idx[0: subsample_size]
     data = data[idx, :]
     label = label[idx, :]
     return data, label
