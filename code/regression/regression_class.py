@@ -97,17 +97,22 @@ def least_squares(feature, target):
 
 
 
-def least_squares_gd(feature, target, max_iter=1000, step_size=0.00001):
-    """
-    Compute least squares using gradient descent
-    :param feature: X
-    :param target: y
-    :param max_iter: maximum iteration
-    :param step_size: how far we go each step
-    :return: weight, obj_val
-    """
+def least_squares_gd(feature, target, max_iter=1000, step_size=0.00001, tol=1e-3):
+    feature_dim = feature.shape[1]
+    weight = np.zeros((feature_dim, 1))
+    obj_val = []
+    for i in range(max_iter):
+        weight_old = weight.copy()
 
-    return
+        err = np.dot(feature, weight) - target
+        obj_val += [np.linalg.norm(err, 'fro')**2/2]
+        grad = np.dot(feature.T, err)
+        weight -= step_size * grad
+
+        # stop criteria.
+        if np.linalg.norm(weight - weight_old, 'fro') < tol:
+            break
+    return weight, obj_val
 
 
 def ridge_regression(feature, target, lam=1e-17):
@@ -262,7 +267,7 @@ if __name__ == '__main__':
     np.random.seed(491)
 
     # # EXP1: training testing.
-    exp1()
+    #exp1()
     #
     # # EXP2: generalization performance: increase sample size.
     # exp2()
@@ -274,5 +279,5 @@ if __name__ == '__main__':
     # exp4()
 
     # EXP5: gradient descent and convergence.
-    # exp5()
+    exp5()
 
